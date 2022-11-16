@@ -1,0 +1,265 @@
+﻿<Window x:Class="IndependentWork15WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndependentWork15WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer" Grid.ColumnSpan="2"  >
+            <FlowDocument Background="#FF85C828">
+                <Paragraph>
+                    <Floater Width="400" HorizontalAlignment="Center">
+                        <BlockUIContainer>
+                            <Image Source="Data/RikiMorti.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Floater Width="200" HorizontalAlignment="Left">
+                        <BlockUIContainer>
+                            <Image Source="Data/Rik.png" Height="300"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Floater Width="200" HorizontalAlignment="Left">
+                        <BlockUIContainer>
+                            <Image Source="Data/Morti.png" Height="300"/>
+                        </BlockUIContainer>
+                    </Floater>
+                </Paragraph>
+                <Paragraph >
+                    <Hyperlink NavigateUri="https://rickmorty.fans"><Run FontWeight="Bold" FontSize="18">
+                        «Рик и Морти»</Run></Hyperlink> (англ.
+                    <Italic>Rick and Morty</Italic>) — американский комедийный научно-фантастический анимационный сериал для взрослых, созданный Джастином Ройландом и Дэном Хармоном и выпускаемый в рамках блока Adult Swim на телеканале Cartoon Network. Премьера сериала состоялась в декабре 2013 года; второй сезон вышел в 2015. 1 октября 2017 года завершился третий сезон, и в мае 2018 года было объявлено о выпуске ещё 70 эпизодов при неопределённом количестве сезонов. В мае 2019 года была объявлена дата выхода четвёртого сезона — ноябрь 2019. Первые пять эпизодов вышли в свет в ноябре-декабре, остальные — после перерыва, 3—31 мая 2020 года. Также в мае было объявлено о продлении сериала на пятый сезон (без указания конкретных дат). 20 июня 2021 года вышел пятый сезон, 4 сентября 2022 года состоялся премьерный показ шестого сезона.
+
+Сериал посвящён злоключениям циничного безумного учёного Рика Санчеса и его наивного, капризного и неуверенного в себе внука Морти; создатель сериала Ройланд озвучивает обоих персонажей. Сериал, выросший из хулиганской анимационной пародии на франшизу «Назад в будущее», получил чрезвычайно высокие отзывы критики, особо отмечавшей его оригинальность, креативность и чувство юмора.
+                </Paragraph>
+                <Paragraph >
+                <Floater Width="1000" HorizontalAlignment="Left">
+                    <BlockUIContainer>
+                        <Image Source="Data/1.jpg" Height="300"/>
+                    </BlockUIContainer>
+                </Floater>
+                </Paragraph>
+                <Paragraph >
+                    <Run FontFamily="Comic Sans MS" Foreground="#FF0D18C7" FontSize="22" >Основные персонажи:</Run> 
+                </Paragraph>
+                <List MarkerStyle="Circle">
+                    <ListItem>
+                        <Paragraph>
+                          <Floater Width="150" HorizontalAlignment="Right">
+                            <BlockUIContainer>
+                                <Image Source="Data/2.jpg" Height="150"/>
+                            </BlockUIContainer>
+                        </Floater> 
+                            <Run FontWeight="Bold" FontSize="22" Foreground="Blue">Рик Санчес</Run>  (озвучил Джастин Ройланд) (англ.
+                            <Italic>Rick Sanchez C-137</Italic>) — один из двух главных героев, гениальный ученый возрастом около 70 лет, алкоголик с постоянной отрыжкой. Скептик, крайне циничен, ворчлив, эгоистичен, но не лишён чувства юмора. Атеист (хотя в некоторых сериях даже молится Богу, однако, каждый раз после чудесного спасения ссылается на удачу и вновь отвергает Его существование). Панически боится пиратов. Из-за своей гениальности нажил себе немало врагов во всей Вселенной. Недавно переехал к своей дочери в семью Смитов; с тех пор почти во все путешествия отправляется со своим внуком Морти.
+                             
+                        </Paragraph>
+                        
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Floater Width="150" HorizontalAlignment="Right">
+                            <BlockUIContainer>
+                                <Image Source="Data/3.png" Height="150"/>
+                            </BlockUIContainer>
+                        </Floater>
+                            <Run FontWeight="Bold" FontSize="22" Foreground="Blue">Морти Смит</Run>  (озвучил Джастин Ройланд) (англ.
+                            <Italic>Morty Smith</Italic>) — второй главный герой, внук Рика, мальчик 14 лет, обычный подросток. Путешествуя с дедом, часто просто не понимает, что происходит, но периодически проявляет смекалку. Влюблён в Джессику. После уничтожения населения родной планеты Земли в результате «кроненбергизации», перебрался вместе с Риком в измерение, где их версии погибли при неудачном эксперименте Рика. Было ещё несколько переходов в другие измерения, о чём говорят записанные воспоминания Морти. Были ли они до событий «кроненбергизации» неизвестно.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Floater Width="150" HorizontalAlignment="Right">
+                                <BlockUIContainer>
+                                    <Image Source="Data/4.jpg" Height="150"/>
+                                </BlockUIContainer>
+                            </Floater>
+                            <Run FontWeight="Bold" FontSize="22" Foreground="#FF5F0404">Бэт Смит</Run> (Санчес) (озвучила Сара Чок) (англ.
+                            <Italic>Beth Smith (Sanchez)</Italic>) — дочь Рика, мать Морти и Саммер, и жена Джерри, 34 года. Работает кардиохирургом-ветеринаром — преимущественно лошадиным. Родила Саммер в 17 лет, из чего, по словам самой Саммер, «постоянно делает проблему». Имеет проблемы с алкоголем, считает себя неполноценной, и боится, что отец вновь бросит её. В последних сериях третьего сезона Рик создал её клон, но сделал так, чтобы самому не знать, кто есть кто, об этом рассказывается в 10-й серии 4-го сезона.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Floater Width="150" HorizontalAlignment="Left">
+                                <BlockUIContainer>
+                                    <Image Source="Data/5.jpg" Height="150"/>
+                                </BlockUIContainer>
+                            </Floater>
+                            <Run FontWeight="Bold" FontSize="22" Foreground="#FF5F0404">Джерри Смит</Run>  (озвучил Крис Парнелл) (англ.
+                            <Italic>Jerry Smith</Italic>) — отец Морти и Саммер, зять Рика, муж Бэт, 34-35 лет. Как и Морти, наивен и глуповат, сильно комплексует из-за этого. Подшучивает над женой по поводу того, что она «не настоящий хирург». Очень любит фильм «Титаник». Безработный, о чём ему периодически напоминают все члены семьи фразами «найди работу». Некоторое время работает рекламным агентом. Интересуется гражданским правом. Недолюбливает Рика (если не сказать больше), и это чувство взаимно.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Floater Width="150" HorizontalAlignment="Right">
+                                <BlockUIContainer>
+                                    <Image Source="Data/6.jpg" Height="150"/>
+                                </BlockUIContainer>
+                            </Floater>
+                            <Run FontWeight="Bold" FontSize="22" Foreground="#FF5F0404">Саммер Смит</Run>  (озвучила Спенсер Грэммер) (англ.
+                            <Italic>Summer Smith</Italic>) — старшая сестра Морти, 17 лет. Типичный подросток с соответствующим кругом интересов. Иногда путешествует с дедом и младшим братом и нередко выручает их. Считает выходки своей семьи «глупыми». Некоторое время работала в лавке у дьявола. Была влюблена в Итана, во второй серии 3 сезона встречалась с Кровотёком, лидером обитателей постапокалиптического измерения. Очень привязана к своему телефону. Считает свое тело некрасивым.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Table FontSize="20"  >
+                    <Table.Columns>
+                        <TableColumn Width="0.5*"/>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="1.5*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сезон
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Количество эпизодов
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Дата выхода сезона
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    1 Сезон
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    11
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    2 декабря 2012 года
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    2 Сезон
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    10
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    26 июля 2015 года
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    3 Сезон
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    10
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1 апреля 2017 года
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    4 Сезон
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    10
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    10 ноября 2019 года
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    5 Сезон
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    10
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    20 июля 2021 года
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    6 Сезон
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    10
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    4 сентября 2022 года
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text="Жмякни на кнопку если понравилось!" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="36">
+                            <TextBlock.Foreground>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black"/>
+                                    <GradientStop Color="#FF0A37EF" Offset="0.259"/>
+                                </LinearGradientBrush>
+                            </TextBlock.Foreground>
+                        </TextBlock>
+                        <Button Content="!!!ЖМЯК!!!" FontSize="48" FontFamily="Comic Sans MS" Foreground="#FFFFE117">
+                            <Button.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF111BB5"/>
+                                    <GradientStop Color="#FF3AD210" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Width="100" Click="Button_Click_2"/>
+            <Button Content="Сохранить" Width="100" Click="Button_Click_1"/>
+            <Button Content="Очистить" Width="100" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
